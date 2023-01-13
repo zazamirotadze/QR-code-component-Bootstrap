@@ -1,0 +1,32 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+.body{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    background-color: var(--Light-gray);
+}
+
+.body h5{
+    color: var(--Dark-blue) ;
+    font-weight: 700 ;
+}
+.body p{
+    color: var(--Grayish-blue) ;
+    font-weight: 400 ;
+}
+
+
+.body > div:nth-child(1){
+    width: 18rem;
+}
+.body > div > div:nth-child(1){
+    background-color: var(--White);
+}
